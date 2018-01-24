@@ -12,6 +12,7 @@
       <td><%= task.task_name %></td>
       <td><%= task.deadline %></td>
       <td><%= task.details %></td>
+      <td><%= link_to Category.find(task.category_id).name, category_path(task.category_id) %></td>
       <td><%= link_to 'Show', task_path(task) %></td>
       <td><%= link_to 'Edit', edit_task_path(task) %></td>
       <td><%= link_to 'Destroy', task_path(task),

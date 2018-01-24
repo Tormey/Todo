@@ -9,14 +9,17 @@ class TasksController < ApplicationController
  
   def new
     @task = Task.new
+    @categories = Category.all.map{|c| [ c.name, c.id ] }
   end
  
   def edit
     @task = Task.find(params[:id])
+    @categories = Category.all.map{|c| [ c.name, c.id ] }
   end
  
   def create
     @task = Task.new(task_params)
+    @task.category_id = params[:category_id]
  
     if @task.save
       redirect_to @task
@@ -27,6 +30,7 @@ class TasksController < ApplicationController
  
   def update
     @task = Task.find(params[:id])
+    @task.category_id = params[:category_id]
  
     if @task.update(task_params)
       redirect_to @task
