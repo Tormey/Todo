@@ -1,5 +1,5 @@
 class Category < ApplicationRecord
-    has_many :products
+    has_many :tasks, dependent: :destroy
 
     # Everytime after deleting a category, create the default Inbox when there is no more category,
     # so that there is still a category for users to choose from
