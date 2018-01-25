@@ -1,8 +1,12 @@
 Rails.application.routes.draw do
-  resources :categories
   get 'welcome/index'
 
+  #routing to be fixed later
   resources :tasks
+
+  resources :categories do
+    resources :tasks
+  end
 
   root 'welcome#index'
 

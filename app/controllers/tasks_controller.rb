@@ -47,7 +47,6 @@ class TasksController < ApplicationController
   end
  
   private
-  # to be changed, once the parameters are known
     def task_params
       params.require(:task).permit(:task_name, :deadline, :details)
     end
