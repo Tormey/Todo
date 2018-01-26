@@ -1,6 +1,8 @@
 <h1>Editing Category</h1>
 
+<p>
 <%= render 'form', category: @category %>
+</p>
 
-<%= link_to 'Show', @category, class: 'btn btn-primary btn-sm' %> |
-<%= link_to 'Back', categories_path, class: 'btn btn-primary btn-sm' %>
+<%= link_to 'Show This Category', @category, class: 'btn btn-primary btn-sm' %> |
+<%= link_to 'Back to All Categories', categories_path, class: 'btn btn-primary btn-sm' %>
