@@ -12,8 +12,8 @@
 
 <h3> Tasks under this category </h3>
 <% Task.where(category_id: @category.id).each do |task| %>
-<li> <%= task.task_name %> </li>
+<li><%= task.task_name %><%= link_to 'View Task', task_path(task), class: 'btn btn-info btn-xs' %></li>
 <% end %>
 
-<%= link_to 'Edit', edit_category_path(@category) %> |
-<%= link_to 'Back', categories_path %>
+<%= link_to 'Edit', edit_category_path(@category), class: 'btn btn-warning btn-sm' %> |
+<%= link_to 'Back', categories_path, class: 'btn btn-primary btn-sm' %>
