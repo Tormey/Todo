@@ -18,25 +18,21 @@
             <% end -%>
           </div>
         </div>
-        <div class="row">
-          <div class="col-xs-3">
-            <h3>Tealeaf Academy Todo</h3>
+
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-4">Welcome to Your Todo List</h1>
+            <p class="lead">Get your everyday life organized.</p>
           </div>
-          <div class="col-xs-9">
-            <%= yield %>
-          </div>
+        </div>
+        <div>
+          <%= yield %>
         </div>
       </div>
 
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    
     <%= render 'shared/footer' %>
   </body>
 </html>
