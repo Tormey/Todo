@@ -4,6 +4,13 @@
 
 This To-do list is created with Ruby on Rails, and it's created for the CVWO 2018 holiday assignment.
 
+### Name
+
+Zhang Yuntong
+
+### Matriculation Number
+A0138021W
+
 ## Versions
 
 * ruby 2.3.4
@@ -30,12 +37,12 @@ $ rails server
 ```
 Now you can open this todo-list app in your browser at http://localhost:3000/.
 
-## authentication
+## Authentication
 
 ### The Username and password to view the tasks and categories are:
 
-User name: cvwo2018
-Password: cvwo2018
+* User name: cvwo2018
+* Password: cvwo2018
 
 ## Deployment
 
