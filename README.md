@@ -1,25 +1,43 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Introduction 
 
-Things you may want to cover:
+This To-do list is created with Ruby on Rails, and it's created for the CVWO 2018 holiday assignment.
 
-* Ruby version
+## Versions
 
-* System dependencies
+* ruby 2.3.4
+* rails 5.1.4
+* boostrap-sass 3.7.7
 
-* Configuration
+## Running the app in local environment
 
-* Database creation
+Clone this repo:
+```
+$ git clone https://github.com/Tormey/Todo
+```
+Install all dependancies:
+```
+$ bundle install
+```
+Create database and run migration:
+```
+$ rake db:create db:migrate
+```
+Start the local server:
+```
+$ rails server
+```
+Now you can open this todo-list app in your browser at http://localhost:3000/.
 
-* Database initialization
+## authentication
 
-* How to run the test suite
+### The Username and password to view the tasks and categories are:
 
-* Services (job queues, cache servers, search engines, etc.)
+User name: cvwo2018
+Password: cvwo2018
 
-* Deployment instructions
+## Deployment
 
-* ...
+
 #Todo
