@@ -46,5 +46,6 @@ Now you can open this todo-list app in your browser at http://localhost:3000/.
 
 ## Deployment
 
+This app is deployed on heroku, at https://pure-eyrie-83972.herokuapp.com.
 
 #Todo
