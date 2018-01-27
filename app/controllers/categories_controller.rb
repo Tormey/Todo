@@ -1,6 +1,7 @@
 class CategoriesController < ApplicationController
   before_action :set_category, only: [:show, :edit, :update, :destroy]
 
+  #simple authentication, where only one user is created for testing purposes
   http_basic_authenticate_with name: "cvwo2018", password: "cvwo2018", only: :index
 
   # GET /categories
