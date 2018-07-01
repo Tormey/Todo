@@ -25,13 +25,6 @@ gem 'autoprefixer-rails'
 gem 'jquery-rails'
 
 
-# Solve Github reported vulnerability issues
-gem 'loofah', '~> 2.2.1'
-gem 'nokogiri', '~> 1.8.2'
-gem 'rails-html-sanitizer', '~> 1.0.4'
-gem 'sprockets', '~> 3.7.2'
-
-
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
