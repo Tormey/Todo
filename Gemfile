@@ -8,9 +8,8 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
-# Use sqlite3 as the database for Active Record
-# Change to Postgresql
-gem 'pg', '~> 0.20'
+# Use postgresql as the database for Active Record
+gem 'pg', '< 1'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
@@ -25,6 +24,12 @@ gem 'bootstrap-sass', '~> 3.3.7'
 gem 'autoprefixer-rails'
 gem 'jquery-rails'
 
+
+# Solve Github reported vulnerability issues
+gem 'loofah', '~> 2.2.1'
+gem 'nokogiri', '~> 1.8.2'
+gem 'rails-html-sanitizer', '~> 1.0.4'
+gem 'sprockets', '~> 3.7.2'
 
 
 # Use CoffeeScript for .coffee assets and views
