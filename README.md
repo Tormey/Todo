@@ -1,8 +1,8 @@
-# README
+# Todo
 
 ## Introduction
 
-This To-do list is created with Ruby on Rails, and it's created for the CVWO 2018 holiday assignment.
+A To-do list created with Ruby on Rails, for CVWO 2018 holiday assignment.
 
 ### Name
 
