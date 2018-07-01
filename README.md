@@ -20,7 +20,7 @@ A0138021W
 
 ## Deployment
 
-This app is deployed on heroku, at https://pure-eyrie-83972.herokuapp.com.
+This app is deployed on heroku, at https://cvwotodo.herokuapp.com/.
 
 ## Running the app in local environment
 
