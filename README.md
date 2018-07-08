@@ -20,7 +20,7 @@ A0138021W
 
 ## Deployment
 
-This app is deployed on [heroku](https://cvwotodo.herokuapp.com/)
+This app is deployed on [heroku](https://cvwotodo.herokuapp.com/).
 
 ## Running the app in local environment
 
@@ -52,7 +52,7 @@ Now you can open this todo-list app in your browser [locally](http://localhost:3
 
 ## Authentication
 
-### Username and password to view the tasks and categories
+### Username and Password
 
 * User name: cvwo2018
 * Password: cvwo2018
